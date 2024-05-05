@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inscription">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fréquence"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="413dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="59dp"
+        android:background="#D38383"
+        android:text="Droits 2023"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRerC" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="406dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="63dp"
+        app:layout_constraintBottom_toTopOf="@+id/idRerA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prénom"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tranche Age : "
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <EditText
+        android:id="@+id/idNom"
+        android:layout_width="213dp"
+        android:layout_height="49dp"
+        android:background="#CE8C8C"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <EditText
+        android:id="@+id/idPrenom"
+        android:layout_width="214dp"
+        android:layout_height="56dp"
+        android:background="#CE8C8C"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <EditText
+        android:id="@+id/idEmail"
+        android:layout_width="208dp"
+        android:layout_height="51dp"
+        android:background="#CE8C8C"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/idParticiper"
+        android:layout_width="410dp"
+        android:layout_height="68dp"
+        android:text="Participer"
+        android:textColorHighlight="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <Spinner
+        android:id="@+id/idAge"
+        android:layout_width="156dp"
+        android:layout_height="58dp"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <Spinner
+        android:id="@+id/idFrequence"
+        android:layout_width="156dp"
+        android:layout_height="58dp"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="486dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

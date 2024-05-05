@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page1">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="406dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="63dp"
+        app:layout_constraintBottom_toTopOf="@+id/idRerA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="413dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="59dp"
+        android:background="#D38383"
+        android:text="Droits 2023"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRerC" />
+
+    <RadioGroup
+        android:id="@+id/idService"
+        android:layout_width="376dp"
+        android:layout_height="170dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="144dp">
+
+        <RadioButton
+            android:id="@+id/idService2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Très Satisfait"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/idService1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisfait"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/idService3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insatisfait"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="364dp"
+        android:layout_height="69dp"
+        android:text="Que pensez vous de la Ponctualité ? "
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="370dp"
+        android:layout_height="42dp"
+        android:text="Que pensez vous du service ? "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <RadioGroup
+        android:id="@+id/idPonctualite"
+        android:layout_width="369dp"
+        android:layout_height="159dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="400dp">
+
+        <RadioButton
+            android:id="@+id/idPonctualite3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisafait" />
+
+        <RadioButton
+            android:id="@+id/idPonctualite1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Très Satisafait" />
+
+        <RadioButton
+            android:id="@+id/idPonctualite2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insatisfait" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/idSuivant1"
+        android:layout_width="416dp"
+        android:layout_height="61dp"
+        android:text="Suivant"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="595dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

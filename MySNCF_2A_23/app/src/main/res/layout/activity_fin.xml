@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fin">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="406dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="63dp"
+        app:layout_constraintBottom_toTopOf="@+id/idRerA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="413dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="59dp"
+        android:background="#D38383"
+        android:text="Droits 2023"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRerC" />
+
+    <TextView
+        android:id="@+id/idMoyenne"
+        android:layout_width="402dp"
+        android:layout_height="40dp"
+        android:text="La moyenne est de :"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <ImageView
+        android:id="@+id/idSmiley"
+        android:layout_width="226dp"
+        android:layout_height="151dp"
+        app:srcCompat="@drawable/smiley_1"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <ListView
+        android:id="@+id/idListe"
+        android:layout_width="415dp"
+        android:layout_height="235dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <Button
+        android:id="@+id/idRetour"
+        android:layout_width="410dp"
+        android:layout_height="61dp"
+        android:text="Retour"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="591dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

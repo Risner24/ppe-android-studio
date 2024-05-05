@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="406dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="63dp"
+        app:layout_constraintBottom_toTopOf="@+id/idRerA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="413dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="59dp"
+        android:background="#D38383"
+        android:text="Droits 2023"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRerC" />
+
+    <ImageButton
+        android:id="@+id/idRerA"
+        android:layout_width="142dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="28dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/idRerE"
+        app:layout_constraintEnd_toStartOf="@+id/idRerB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/rera" />
+
+    <ImageButton
+        android:id="@+id/idRerB"
+        android:layout_width="144dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="28dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/idRerE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idRerA"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/rerb" />
+
+    <ImageButton
+        android:id="@+id/idRerC"
+        android:layout_width="142dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/idRerD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRerE"
+        app:srcCompat="@drawable/rerc" />
+
+    <ImageButton
+        android:id="@+id/idRerD"
+        android:layout_width="144dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="88dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idRerC"
+        app:layout_constraintTop_toBottomOf="@+id/idRerE"
+        app:srcCompat="@drawable/rerd" />
+
+    <ImageButton
+        android:id="@+id/idRerE"
+        android:layout_width="131dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="30dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/idRerC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRerA"
+        app:srcCompat="@drawable/rere" />
+</androidx.constraintlayout.widget.ConstraintLayout>
